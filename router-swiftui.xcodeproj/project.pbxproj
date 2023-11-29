@@ -14,6 +14,11 @@
 		D3B83C022B1632B6002BFE80 /* router_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C012B1632B6002BFE80 /* router_swiftuiTests.swift */; };
 		D3B83C0C2B1632B6002BFE80 /* router_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C0B2B1632B6002BFE80 /* router_swiftuiUITests.swift */; };
 		D3B83C0E2B1632B6002BFE80 /* router_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C0D2B1632B6002BFE80 /* router_swiftuiUITestsLaunchTests.swift */; };
+		D3B83C1B2B1632CF002BFE80 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C1A2B1632CF002BFE80 /* RouterView.swift */; };
+		D3B83C1D2B1632E0002BFE80 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C1C2B1632E0002BFE80 /* Router.swift */; };
+		D3B83C1F2B163304002BFE80 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C1E2B163304002BFE80 /* FirstView.swift */; };
+		D3B83C212B16330A002BFE80 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C202B16330A002BFE80 /* SecondView.swift */; };
+		D3B83C232B163310002BFE80 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B83C222B163310002BFE80 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D3B83C072B1632B6002BFE80 /* router-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "router-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B83C0B2B1632B6002BFE80 /* router_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = router_swiftuiUITests.swift; sourceTree = "<group>"; };
 		D3B83C0D2B1632B6002BFE80 /* router_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = router_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3B83C1A2B1632CF002BFE80 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		D3B83C1C2B1632E0002BFE80 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D3B83C1E2B163304002BFE80 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		D3B83C202B16330A002BFE80 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D3B83C222B163310002BFE80 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				D3B83BF02B1632B5002BFE80 /* router_swiftuiApp.swift */,
 				D3B83BF22B1632B5002BFE80 /* ContentView.swift */,
+				D3B83C1A2B1632CF002BFE80 /* RouterView.swift */,
+				D3B83C1C2B1632E0002BFE80 /* Router.swift */,
+				D3B83C1E2B163304002BFE80 /* FirstView.swift */,
+				D3B83C202B16330A002BFE80 /* SecondView.swift */,
+				D3B83C222B163310002BFE80 /* ThirdView.swift */,
 				D3B83BF42B1632B6002BFE80 /* Assets.xcassets */,
 				D3B83BF62B1632B6002BFE80 /* Preview Content */,
 			);
@@ -257,6 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B83C232B163310002BFE80 /* ThirdView.swift in Sources */,
+				D3B83C212B16330A002BFE80 /* SecondView.swift in Sources */,
+				D3B83C1D2B1632E0002BFE80 /* Router.swift in Sources */,
+				D3B83C1F2B163304002BFE80 /* FirstView.swift in Sources */,
+				D3B83C1B2B1632CF002BFE80 /* RouterView.swift in Sources */,
 				D3B83BF32B1632B5002BFE80 /* ContentView.swift in Sources */,
 				D3B83BF12B1632B5002BFE80 /* router_swiftuiApp.swift in Sources */,
 			);
